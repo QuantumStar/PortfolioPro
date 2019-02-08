@@ -1,111 +1,64 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  font-family: 'Cinzel', serif;
-  background-color: rgba(255, 144, 0, .3);
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background-image: url('../images/56044_1_miscellaneous_digital_art.jpg');
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
 }
 
-a:-webkit-any-link {
-    text-decoration: none;
-    color: inherit;
+#name, #construction {
+  font-size: 64px;
+  font-family: Impact;
+  color: lightgray;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: .08em;
+  font-style: oblique;
+  text-decoration: underline;
+  margin: auto;
+  position: relative;
+  top: 30px;
 }
 
-  .navBar {
-  display: flex;
-  height: 64px;
-  width: auto;
-  z-index: 10;
-  background-color: silver;
-  position: fixed;
-  top: 0px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-left: solid cornsilk;
-  border-bottom: solid cornsilk;
-  border-right: solid cornsilk;
-  right: 0px;
-  left: 0px;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  justify-content: center;
-}
-
-.navBar a {
-  display: flex;
+#construction {
+  font-size: 22px;
+  font-family: Helvetica;
+  color: white;
   text-decoration: none;
 }
 
-.logo {
-  display: flex;
-  align-self: center;
+#projectList {
+  color:white;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Courier New";
+  font-weight:bold;
 }
 
-.logo h1 {
-  align-self: center;
-  font-size: 2em;
+#projectListHeader {
+  color:white;
+  font-family: "Courier New";
+  font-size: 28px;
   font-weight: bold;
-}
-
-.logo h1 {
-  text-shadow: 2px 2px 2px white;
-  color: black;
-  opacity: 0.7;
-  padding-right: 6px;
-}
-
-.sectionOne {
-  display: inline-block;
-  flex-direction: row;
-  background-color:rgba(97, 209, 97, 0.7);
-  padding-top: 64px;
-  height: 700px;
+  position: relative;
+  top: 50px;
 
 }
 
-.sectionOne img {
-  display: inline-block;
-  max-width: 60%;
-  max-height: 100%;
-  margin: 32px 24px 32px 24px;
-  border-radius: 10px;
-  border: solid 2px cornsilk;
-  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
-}
 
-.sectionOneContent {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-left: 16px;
-  margin-right: 16px;
-  color: cornsilk;
-  text-shadow: 2px 2px 4px black;
-}
+a {
+  color:inherit;
+  text-decoration: inherit;
 
-.sectionOneContent h1 {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-.sectionOneContent p {
-    text-align: center;
-}
+ }
 
-.sectionOneContent div {
-  font-size: 0.8rem;
-  background-color: gray;
-  justify-content: center;
-  text-align: center;
-  padding: 8px 0px;
-  border-radius: 10px;
-  border: solid 2px white;
-  font-size: 25px;
-  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
-  border-radius: 10px;
-}
+
+#projectList a, #projectListHeader {
+  background-color: rgba(32, 26, 103, 0.78);
+
+  }
+
+#projectList a:hover {
+  background-color:  rgba(53, 176, 37, 0.78);
+  }
